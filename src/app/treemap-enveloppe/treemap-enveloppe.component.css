@@ -1,0 +1,63 @@
+.top10{
+  height: 100vh;
+}
+.slider{
+  height:80vh;
+}
+
+.boutons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.boutons .current, .boutons .perCapita{
+  background-color: #22303D;
+  color: #CACACC;
+  padding: 1em;
+  font-size: 1.5em;
+  border-radius: 1em;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.boutons .current:hover, .boutons .perCapita:hover{
+  color: #22303D;
+  background-color: #CACACC;
+  cursor: pointer;
+  transition-duration: 0.8s;
+}
+
+.boutons .active {
+  color: #22303D;
+  background-color: #CACACC;
+}
+
+.perCapitaTree{
+  display: none;
+}
+
+.currentTree, .perCapitaTree{
+  width:100%;
+}
+
+@media screen and (max-width: 1400px){
+    .boutons .current, .boutons .perCapita{
+      font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px){
+  .boutons{
+    display: none;
+  }
+  .top10{
+    height: auto;
+  }
+
+  .slider{
+    height:auto;
+  }
+}

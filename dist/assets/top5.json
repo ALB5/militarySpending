@@ -1,0 +1,705 @@
+{"data":[
+  {
+    "values": [
+      {
+        "date": 1988,
+        "expenditure": 69000906049.4627
+      },
+      {
+        "date": 1989,
+        "expenditure": 69846737620.05338
+      },
+      {
+        "date": 1990,
+        "expenditure": 69537793678.19275
+      },
+      {
+        "date": 1991,
+        "expenditure": 69990642272.7224
+      },
+      {
+        "date": 1992,
+        "expenditure": 67788616592.40394
+      },
+      {
+        "date": 1993,
+        "expenditure": 67037582892.19225
+      },
+      {
+        "date": 1994,
+        "expenditure": 67382470846.28315
+      },
+      {
+        "date": 1995,
+        "expenditure": 64046786793.93317
+      },
+      {
+        "date": 1996,
+        "expenditure": 62509784288.679565
+      },
+      {
+        "date": 1997,
+        "expenditure": 62724737872.63833
+      },
+      {
+        "date": 1998,
+        "expenditure": 61091208091.00152
+      },
+      {
+        "date": 1999,
+        "expenditure": 61607420153.41768
+      },
+      {
+        "date": 2000,
+        "expenditure": 60896822160.865234
+      },
+      {
+        "date": 2001,
+        "expenditure": 60711357140.99129
+      },
+      {
+        "date": 2002,
+        "expenditure": 61963162620.85527
+      },
+      {
+        "date": 2003,
+        "expenditure": 63825559379.08158
+      },
+      {
+        "date": 2004,
+        "expenditure": 65572566441.50591
+      },
+      {
+        "date": 2005,
+        "expenditure": 64234949418.230255
+      },
+      {
+        "date": 2006,
+        "expenditure": 64525443443.71026
+      },
+      {
+        "date": 2007,
+        "expenditure": 64773105461.37444
+      },
+      {
+        "date": 2008,
+        "expenditure": 64124450663.509346
+      },
+      {
+        "date": 2009,
+        "expenditure": 68451289191.07805
+      },
+      {
+        "date": 2010,
+        "expenditure": 65322171497.384445
+      },
+      {
+        "date": 2011,
+        "expenditure": 63725141400.25901
+      },
+      {
+        "date": 2012,
+        "expenditure": 62844361384.23812
+      },
+      {
+        "date": 2013,
+        "expenditure": 62686493041.916214
+      },
+      {
+        "date": 2014,
+        "expenditure": 63613569143.46198
+      },
+      {
+        "date": 2015,
+        "expenditure": 60746975112.419136
+      }
+    ],
+    "id": "France"
+  },
+  {
+    "values": [
+      {
+        "date": 1988,
+        "expenditure": 22843751612.308826
+      },
+      {
+        "date": 1989,
+        "expenditure": 21586296115.182377
+      },
+      {
+        "date": 1990,
+        "expenditure": 27127337235.024998
+      },
+      {
+        "date": 1991,
+        "expenditure": 25869769946.147186
+      },
+      {
+        "date": 1992,
+        "expenditure": 24314362593.491756
+      },
+      {
+        "date": 1993,
+        "expenditure": 25769165925.808746
+      },
+      {
+        "date": 1994,
+        "expenditure": 22242262724.733006
+      },
+      {
+        "date": 1995,
+        "expenditure": 19606356080.0
+      },
+      {
+        "date": 1996,
+        "expenditure": 19574699176.068443
+      },
+      {
+        "date": 1997,
+        "expenditure": 26583272116.903633
+      },
+      {
+        "date": 1998,
+        "expenditure": 30703872926.534416
+      },
+      {
+        "date": 1999,
+        "expenditure": 27331473782.64551
+      },
+      {
+        "date": 2000,
+        "expenditure": 30123423024.215218
+      },
+      {
+        "date": 2001,
+        "expenditure": 32083395912.798985
+      },
+      {
+        "date": 2002,
+        "expenditure": 28166132735.58963
+      },
+      {
+        "date": 2003,
+        "expenditure": 28373530141.81868
+      },
+      {
+        "date": 2004,
+        "expenditure": 31543065581.04626
+      },
+      {
+        "date": 2005,
+        "expenditure": 38007886589.8281
+      },
+      {
+        "date": 2006,
+        "expenditure": 43297164318.13696
+      },
+      {
+        "date": 2007,
+        "expenditure": 49872349509.78071
+      },
+      {
+        "date": 2008,
+        "expenditure": 48949003629.8423
+      },
+      {
+        "date": 2009,
+        "expenditure": 50299257469.698586
+      },
+      {
+        "date": 2010,
+        "expenditure": 52350008070.42143
+      },
+      {
+        "date": 2011,
+        "expenditure": 53062287649.249886
+      },
+      {
+        "date": 2012,
+        "expenditure": 60040554469.6135
+      },
+      {
+        "date": 2013,
+        "expenditure": 68809615185.21846
+      },
+      {
+        "date": 2014,
+        "expenditure": 80762400000.0
+      },
+      {
+        "date": 2015,
+        "expenditure": 85354421561.19617
+      }
+    ],
+    "id": "Saudi Arabia"
+  },
+  {
+    "values": [
+      {
+        "date": 1988,
+        "expenditure": 586731353945.1948
+      },
+      {
+        "date": 1989,
+        "expenditure": 580704682496.6595
+      },
+      {
+        "date": 1990,
+        "expenditure": 554741909795.7622
+      },
+      {
+        "date": 1991,
+        "expenditure": 487220545838.62946
+      },
+      {
+        "date": 1992,
+        "expenditure": 514821507883.24243
+      },
+      {
+        "date": 1993,
+        "expenditure": 487764084460.53925
+      },
+      {
+        "date": 1994,
+        "expenditure": 460071840495.2756
+      },
+      {
+        "date": 1995,
+        "expenditure": 433219527360.0
+      },
+      {
+        "date": 1996,
+        "expenditure": 409655589200.5324
+      },
+      {
+        "date": 1997,
+        "expenditure": 407537206299.7807
+      },
+      {
+        "date": 1998,
+        "expenditure": 398331662830.8078
+      },
+      {
+        "date": 1999,
+        "expenditure": 399314079423.3074
+      },
+      {
+        "date": 2000,
+        "expenditure": 414767965133.97754
+      },
+      {
+        "date": 2001,
+        "expenditure": 418135436995.47327
+      },
+      {
+        "date": 2002,
+        "expenditure": 469485960979.6596
+      },
+      {
+        "date": 2003,
+        "expenditure": 534350977775.20074
+      },
+      {
+        "date": 2004,
+        "expenditure": 582399818124.6117
+      },
+      {
+        "date": 2005,
+        "expenditure": 610175788230.1534
+      },
+      {
+        "date": 2006,
+        "expenditure": 619653092855.1991
+      },
+      {
+        "date": 2007,
+        "expenditure": 635921046521.541
+      },
+      {
+        "date": 2008,
+        "expenditure": 682967143010.8289
+      },
+      {
+        "date": 2009,
+        "expenditure": 737746788447.879
+      },
+      {
+        "date": 2010,
+        "expenditure": 757992495160.6252
+      },
+      {
+        "date": 2011,
+        "expenditure": 748645970761.5808
+      },
+      {
+        "date": 2012,
+        "expenditure": 706082085100.4519
+      },
+      {
+        "date": 2013,
+        "expenditure": 650081468798.2417
+      },
+      {
+        "date": 2014,
+        "expenditure": 609914000000.0
+      },
+      {
+        "date": 2015,
+        "expenditure": 595472054945.3376
+      }
+    ],
+    "id": "USA"
+  },
+  {
+    "values": [
+      {
+        "date": 1988,
+        "expenditure": 64010038852.37486
+      },
+      {
+        "date": 1989,
+        "expenditure": 64573576981.10633
+      },
+      {
+        "date": 1990,
+        "expenditure": 64665575860.07651
+      },
+      {
+        "date": 1991,
+        "expenditure": 65412525618.790375
+      },
+      {
+        "date": 1992,
+        "expenditure": 61097200645.97219
+      },
+      {
+        "date": 1993,
+        "expenditure": 58306394290.115845
+      },
+      {
+        "date": 1994,
+        "expenditure": 56702230716.07253
+      },
+      {
+        "date": 1995,
+        "expenditure": 53183149787.04382
+      },
+      {
+        "date": 1996,
+        "expenditure": 52865295816.46021
+      },
+      {
+        "date": 1997,
+        "expenditure": 51199960323.35902
+      },
+      {
+        "date": 1998,
+        "expenditure": 51484576119.17019
+      },
+      {
+        "date": 1999,
+        "expenditure": 51421191154.97238
+      },
+      {
+        "date": 2000,
+        "expenditure": 52765534545.37917
+      },
+      {
+        "date": 2001,
+        "expenditure": 54900920527.75261
+      },
+      {
+        "date": 2002,
+        "expenditure": 58457604930.56979
+      },
+      {
+        "date": 2003,
+        "expenditure": 62661349427.93357
+      },
+      {
+        "date": 2004,
+        "expenditure": 63391751336.28733
+      },
+      {
+        "date": 2005,
+        "expenditure": 63921712821.77133
+      },
+      {
+        "date": 2006,
+        "expenditure": 64333746426.234764
+      },
+      {
+        "date": 2007,
+        "expenditure": 66369789390.16344
+      },
+      {
+        "date": 2008,
+        "expenditure": 69332111157.7502
+      },
+      {
+        "date": 2009,
+        "expenditure": 70679181692.47119
+      },
+      {
+        "date": 2010,
+        "expenditure": 69192037557.19226
+      },
+      {
+        "date": 2011,
+        "expenditure": 66270535439.48532
+      },
+      {
+        "date": 2012,
+        "expenditure": 63446206956.43828
+      },
+      {
+        "date": 2013,
+        "expenditure": 60766435400.90725
+      },
+      {
+        "date": 2014,
+        "expenditure": 59182858554.25656
+      },
+      {
+        "date": 2015,
+        "expenditure": 59729580119.84641
+      }
+    ],
+    "id": "UK"
+  },
+  {
+    "values": [
+      {
+        "date": 1988,
+        "expenditure": 343617345724.4238
+      },
+      {
+        "date": 1989,
+        "expenditure": 318616099827.6855
+      },
+      {
+        "date": 1990,
+        "expenditure": 269544788141.9796
+      },
+      {
+        "date": 1991,
+        "expenditure": 57641355202.14047
+      },
+      {
+        "date": 1992,
+        "expenditure": 57641355202.14047
+      },
+      {
+        "date": 1993,
+        "expenditure": 50388711886.53528
+      },
+      {
+        "date": 1994,
+        "expenditure": 47634591220.30556
+      },
+      {
+        "date": 1995,
+        "expenditure": 31341694795.01043
+      },
+      {
+        "date": 1996,
+        "expenditure": 29595829625.895947
+      },
+      {
+        "date": 1997,
+        "expenditure": 32354852111.364178
+      },
+      {
+        "date": 1998,
+        "expenditure": 19242832700.08909
+      },
+      {
+        "date": 1999,
+        "expenditure": 21370040785.544197
+      },
+      {
+        "date": 2000,
+        "expenditure": 28838453013.422775
+      },
+      {
+        "date": 2001,
+        "expenditure": 31170670141.856533
+      },
+      {
+        "date": 2002,
+        "expenditure": 34529655644.8596
+      },
+      {
+        "date": 2003,
+        "expenditure": 36200408328.381165
+      },
+      {
+        "date": 2004,
+        "expenditure": 37846639083.4253
+      },
+      {
+        "date": 2005,
+        "expenditure": 43010035285.38259
+      },
+      {
+        "date": 2006,
+        "expenditure": 47601168383.06963
+      },
+      {
+        "date": 2007,
+        "expenditure": 51813962141.81198
+      },
+      {
+        "date": 2008,
+        "expenditure": 56933299668.116
+      },
+      {
+        "date": 2009,
+        "expenditure": 59730224848.57842
+      },
+      {
+        "date": 2010,
+        "expenditure": 60939656375.65174
+      },
+      {
+        "date": 2011,
+        "expenditure": 65040310179.54495
+      },
+      {
+        "date": 2012,
+        "expenditure": 75364320753.50615
+      },
+      {
+        "date": 2013,
+        "expenditure": 79030424094.41061
+      },
+      {
+        "date": 2014,
+        "expenditure": 84696504653.49779
+      },
+      {
+        "date": 2015,
+        "expenditure": 91080941892.61476
+      }
+    ],
+    "id": "Russia"
+  },
+  {
+    "values": [
+      {
+        "date": 1988,
+        "expenditure": 20211587396.302082
+      },
+      {
+        "date": 1989,
+        "expenditure": 20211587396.302082
+      },
+      {
+        "date": 1990,
+        "expenditure": 22025434145.948006
+      },
+      {
+        "date": 1991,
+        "expenditure": 23398124454.747463
+      },
+      {
+        "date": 1992,
+        "expenditure": 28425547691.225475
+      },
+      {
+        "date": 1993,
+        "expenditure": 26221598848.91526
+      },
+      {
+        "date": 1994,
+        "expenditure": 25256201935.378742
+      },
+      {
+        "date": 1995,
+        "expenditure": 26213386279.689373
+      },
+      {
+        "date": 1996,
+        "expenditure": 27837030914.48596
+      },
+      {
+        "date": 1997,
+        "expenditure": 29857612544.524452
+      },
+      {
+        "date": 1998,
+        "expenditure": 32715325404.3351
+      },
+      {
+        "date": 1999,
+        "expenditure": 39800271536.80475
+      },
+      {
+        "date": 2000,
+        "expenditure": 43229789227.04268
+      },
+      {
+        "date": 2001,
+        "expenditure": 52179215924.088615
+      },
+      {
+        "date": 2002,
+        "expenditure": 60642115084.85205
+      },
+      {
+        "date": 2003,
+        "expenditure": 65496239334.97253
+      },
+      {
+        "date": 2004,
+        "expenditure": 72415006360.52168
+      },
+      {
+        "date": 2005,
+        "expenditure": 79808744205.45409
+      },
+      {
+        "date": 2006,
+        "expenditure": 92586239956.31856
+      },
+      {
+        "date": 2007,
+        "expenditure": 103715573389.17847
+      },
+      {
+        "date": 2008,
+        "expenditure": 113527041955.18478
+      },
+      {
+        "date": 2009,
+        "expenditure": 137400845513.17365
+      },
+      {
+        "date": 2010,
+        "expenditure": 144382716697.8628
+      },
+      {
+        "date": 2011,
+        "expenditure": 155897745121.09015
+      },
+      {
+        "date": 2012,
+        "expenditure": 169321141159.77124
+      },
+      {
+        "date": 2013,
+        "expenditure": 182930077776.80005
+      },
+      {
+        "date": 2014,
+        "expenditure": 199651442932.22528
+      },
+      {
+        "date": 2015,
+        "expenditure": 214485460937.7087
+      }
+    ],
+    "id": "China"
+  }
+]
+}

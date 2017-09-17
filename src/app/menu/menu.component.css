@@ -1,0 +1,35 @@
+/*MENU LATERAL*/
+.menuLat{
+  position: fixed;
+  right : 3vw;
+  top: 35vh;
+  background-color: white;
+  height: 30vh;
+  width: 2vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.25vh solid #DD0B18;
+  z-index: 10;
+}
+
+.menuLat .circle{
+
+  border: 0.5vh solid #DD0B18;
+  border-radius: 50%;
+  width: 1vh;
+  height: 1vh;
+  cursor: pointer;
+}
+
+.coche{
+  background-color: #DD0B18;
+}
+
+@media screen and (max-width: 768px){
+  .menuLat{
+    visibility: hidden;
+  }
+}

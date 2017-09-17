@@ -1,0 +1,155 @@
+h2 {
+  font-size: 2em;
+}
+
+p {
+  color: #696969;
+  font-size: 1.5em;
+}
+
+.increase{
+  height: 100vh;
+  display:none;
+}
+
+.comment{
+  padding: 4.5em 0;
+}
+
+.comment span{
+  background-color: #E23742;
+  color: white;
+  padding: 0.1em;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pays {
+  padding: 4.5em 0;
+}
+
+.styled-select{
+   width: 5em;
+   height: 3em;
+   overflow: hidden;
+   background: url(/assets/images/flechesOpp2.svg) no-repeat right #E23742;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+}
+
+
+.styled-select select {
+  background-color: transparent;
+  width: 5em;
+  padding: 2em;
+  font-size: 2.5em;
+  color:white;
+  line-height: 1;
+  border: 0;
+  border-radius: 10px;
+  height: 3em;;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.countries {
+  list-style-type: none;
+  width: 30em;
+}
+
+.countries li{
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  padding: .3em 0;
+}
+
+.countries .country {
+  color: white;
+  background-color: #E23742;
+  display: inline-block;
+  padding: 0.8em 0.7em 0 0.7em;
+  line-height: 1em;
+  height: 1.8em;
+  margin-right: .8em;
+  width: 40%;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  border-radius: 4px 0 0 4px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.countries .expenditure {
+  color: #696969;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.countries li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.countries li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+@media screen and (max-width: 1400px){
+  h2{
+    padding: 0.5em 0;
+  }
+
+  .pays, .comment {
+    padding: 2.5em 0;
+  }
+
+  p{
+    font-size: 1.25em;
+  }
+
+  .countries .country{
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .countries {
+    list-style-type: none;
+    width: 30em;
+  }
+
+  .increase{
+    height: auto;
+  }
+
+  .countries li{
+    padding-left: 0;
+    -webkit-padding-start: 0px;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .countries{
+    width: 15em;
+  }
+}

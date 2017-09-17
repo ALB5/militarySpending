@@ -1,0 +1,155 @@
+/*Titre*/
+.home{
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/../assets/images/test.png");
+  background-size: cover;
+}
+
+.enveloppe-compteur{
+  margin: 1.5em 0;
+  visibility: hidden;
+  animation:2s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+  font-size: 4em;
+  text-align: center;
+  color:#ccc;
+}
+
+.filtre{
+  background-color: rgba(0,0,0,0.4);
+  background-size: cover;
+  height: 100vh;
+}
+
+.contenu{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  color: #E23742;
+  text-align: center;
+  font-size: 5.5em;
+  max-width: 80%;
+  z-index: 10;
+  margin-top: 2em;
+  animation:2s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  visibility: hidden;
+  text-transform: uppercase;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.titre-image{
+  display: flex;
+  justify-content: space-around;
+}
+
+.titre-image h1{
+  flex-basis: 70%;
+}
+
+.message {
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  display: none;
+}
+
+.fleche{
+  text-align: center;
+  display: none;
+  margin-top: 8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fleche a{
+  color: #E23742;
+}
+
+.enveloppe-site{
+  opacity: 0;
+}
+
+.preload *{
+  animation-play-state: paused !important;
+}
+
+@media screen and (max-width: 2000px){
+  .fleche{
+    margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 1740px){
+  h1{
+    font-size: 4em;
+  }
+
+  .enveloppe-compteur{
+    font-size: 3.5em;
+    margin: 0.8em 0;
+  }
+
+  .fleche{
+    margin-top: 4em;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 4em;
+    padding: 2em 0;
+    margin: 0;
+    max-width: none;
+  }
+
+  .titre-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .titre-image h1{
+    flex-basis: auto;
+  }
+
+  .contenu{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .enveloppe-compteur{
+    font-size: 3.5em;
+  }
+
+  .fleche{
+    margin-top: 12em;
+  }
+}
+
+@media screen and (max-width: 400px){
+  h1{
+    font-size: 2.5em;
+  }
+
+  .enveloppe-compteur{
+    font-size: 2em;
+  }
+}

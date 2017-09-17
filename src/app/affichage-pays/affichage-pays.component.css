@@ -1,0 +1,87 @@
+h2 {
+  color: #E23742;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.styled-select{
+   width: 5em;
+   height: 34px;
+   overflow: hidden;
+   background: url(/assets/images/flechesOpp2.svg) no-repeat right #E23742;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+}
+
+
+.styled-select select {
+  background-color: transparent;
+  width: 5em;
+  padding: 5px;
+  font-size: 16px;
+  color:white;
+  line-height: 1;
+  border: 0;
+  border-radius: 10px;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.countries {
+  list-style-type: none;
+  width: 30em;
+}
+
+.countries li{
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  padding: .3em 0;
+}
+
+.countries .country {
+  color: white;
+  background-color: #E23742;
+  display: inline-block;
+  padding: 0.8em 0.7em 0 0.7em;
+  line-height: 1em;
+  height: 1.8em;
+  margin-right: .8em;
+  width: 40%;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  border-radius: 4px 0 0 4px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.countries .expenditure {
+  color: #696969;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.countries li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+}
+.countries li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}

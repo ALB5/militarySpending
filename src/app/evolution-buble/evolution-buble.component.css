@@ -1,0 +1,60 @@
+h2 {
+  font-size: 2em;
+}
+
+p {
+  color: #696969;
+  font-size: 1.5em;
+}
+
+.evolution-bubble{
+  height: 100vh;
+}
+
+.graph-bubble{
+  height: 60vh;
+}
+
+.contenu-evolution-bubble{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comment{
+  padding: 4.5em 0;
+}
+
+.comment span{
+  background-color: #E23742;
+  color: white;
+  padding: 0.1em;
+}
+
+.comment,
+.contenu-graph-bubble
+{
+  flex: 45%;
+}
+
+@media screen and (max-width: 768px){
+  .contenu-evolution-bubble{
+    flex-direction: column-reverse;
+  }
+
+  .evolution-bubble{
+    height: auto;
+  }
+
+  .contenu-graph-bubble svg{
+    min-height: 70vh;
+  }
+
+  .comment,
+  .contenu-graph-bubble
+  {
+    flex-basis: auto;
+  }
+}

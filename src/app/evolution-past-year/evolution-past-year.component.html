@@ -1,0 +1,23 @@
+<section class="increase" id="increase">
+  <h2>The top 5 countries with the most increased in 2016</h2>
+  <div class="container">
+    <div class="comment">
+      <p><span>Latvia</span> ranks first. It increased its spendings as it considers itself under the threat of Russia. The same explanation applies for <span>Lithunia</span>.</p>
+      <p>For <span>Botswana</span>, it seems a bit surprising, as the country is in a zone where there is no current conflict or direct threat. Nevertheless, the government engaged in a modernization programme.</p>
+      <p>The rise of the military budget in the <span>Philippines</span> aims at boosting its fight against Islamist groups and reinforce maritime security in the disputed South China Sea.</p>
+      <p>As for <span>Mali</span>, it pursues its effort to fight the Islamist extremist threat.</p>
+    </div>
+    <div class="pays">
+      <ul class="countries">
+        <ng-template ngFor let-country [ngForOf]="data">
+            <li [class.selected]="country === selectedCountry"
+            (click)="onSelect(country)"
+            (click)="gotoDetail()">
+              <span class="country">{{country.id}}</span>
+              <span class="expenditure">+{{country.evolution | percent}}</span>
+            </li>
+        </ng-template>
+      </ul>
+    </div>
+  </div>
+</section>

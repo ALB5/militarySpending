@@ -1,0 +1,22 @@
+{"data":[
+   {
+      "somme":34540.06980750587,
+      "region":"Africa"
+   },
+   {
+      "somme":682831.7907208272,
+      "region":"Americas"
+   },
+   {
+      "somme":451914.110052473,
+      "region":"Asia"
+   },
+   {
+      "somme":341996.8096130392,
+      "region":"Europe"
+   },
+   {
+      "somme":136660.3766967312,
+      "region":"Middle East"
+   }
+]}

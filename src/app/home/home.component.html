@@ -1,0 +1,30 @@
+<div class="loading">
+</div>
+<div class="enveloppe-site preload">
+  <section class="home" id="home">
+      <div class="filtre">
+        <div class="contenu">
+          <div class="titre-image">
+            <h1>Military Spending Around The World</h1>
+          </div>
+          <div class="enveloppe-compteur">
+            <div class="counter" data-count="1690000000000">0</div>
+            <div class="message">spent in 2016</div>
+          </div>
+          <div class="fleche">
+            <a [routerLink]="[]" fragment="carte" href="#carte"><i class="fa fa-arrow-down fa-4x" aria-hidden="true"></i>
+            </a>
+        </div>
+        </div>
+      </div>
+  </section>
+  <country-list></country-list>
+  <app-treemap-enveloppe></app-treemap-enveloppe>
+  <app-evolution3 class="graph"></app-evolution3>
+  <app-evolution-past-year></app-evolution-past-year>
+  <app-evolution-buble></app-evolution-buble>
+  <app-region></app-region>
+  <app-menu></app-menu>
+  <app-bas-page></app-bas-page>
+  <p class="error" *ngIf="errorMessage">{{errorMessage}}</p>
+</div>

@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngIf="top5">
+    <h2>{{top5.id}}</h2>
+    <div>
+      <div><label>Name: </label>{{top5.id}}</div>
+      <div><label>Expenditure: </label>{{top5.values}}</div>
+    </div>
+    <button (click)="goBack()">Back</button>
+  </div>
+</div>

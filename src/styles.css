@@ -1,0 +1,200 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'lato', sans-serif, Arial;
+  margin: 0;
+}
+
+h2 {
+  color: #E23742;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 2em;
+}
+/*Loading*/
+/* default .loading styles, .loading should be invisible, opacity: 0, z-index: -1 */
+.loading {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #E23742;
+    width: 5em;
+    height: 5em;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40vh;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* .loading screen is visible when app is not bootstraped yet, .my-app is empty */
+app-root:empty + .loading {
+    opacity: 1;
+    z-index: 100;
+}
+
+
+/*Carte*/
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+/*D3*/
+.axis {
+  font: 1em sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #696969;
+  shape-rendering: crispEdges;
+}
+
+.axis-title {
+  fill: none;
+  stroke: #696969;
+  stroke-width: 0.5px;
+}
+
+
+.axis--x path {
+
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.country .text{
+  fill: #22303D;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.tick text{
+  fill: #696969;
+  stroke: none;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/*tootip evolution from 1988*/
+.hover-line {
+  stroke: #DD0B18;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+/*treemap*/
+
+.container-treemap {
+  font: 10px sans-serif;
+  position: relative;
+}
+
+.container-treemap-percapita {
+  font: 10px sans-serif;
+  position: relative;
+}
+
+.node {
+  box-sizing: border-box;
+  line-height: 1em;
+  overflow: hidden;
+  position: absolute;
+  white-space: pre;
+}
+
+.node-label,
+.node-value {
+  margin: 4px;
+  font-size: 15px;
+}
+
+.node-value {
+  margin-top: -2px;
+}
+
+.node-value {
+  font-weight: bold;
+}
+
+/*Bar chart-Regions*/
+
+
+.bar {
+  fill: #22303D;
+}
+
+.bar:hover {
+  fill: #E23742;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.tooltip {
+  color: #22303D;
+
+}
+
+/*Bubble Chart*/
+
+.nodesBubble:hover{
+  -webkit-transform-origin: 10% 10%;
+    -moz-transform-origin: 10% 10%;
+     -ms-transform-origin: 10% 10%;
+      -o-transform-origin: 10% 10%;
+         transform-origin: 10% 10%;
+}
+
+
+@media screen and (max-width:400px){
+  .tick text{
+    font-size: 0.7em;
+  }
+
+  .node-label{
+    font-size: 1em;
+  }
+
+}

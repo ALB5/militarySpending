@@ -1,0 +1,22 @@
+<h2>Top 6 - Expenditure</h2>
+
+<div class="container">
+  <div class="pays">
+    <div class="styled-select">
+      <select [(ngModel)]="selectedDate">
+        <option *ngFor="let date of listDate" [selected]="date == 2015">{{date}}</option>
+      </select>
+    </div>
+    <ul class="countries">
+      <ng-template ngFor let-country [ngForOf]="data">
+          <li *ngIf="(country.date == 2015 && selectedDate == null) || country.date == selectedDate"
+          [class.selected]="country === selectedCountry"
+          (click)="onSelect(country)"
+          (click)="gotoDetail()">
+            <span class="country">{{country.id}}</span>
+            <span class="expenditure"> {{country.expenditure | currency:'USD':true:'1.1-1'}}B</span>
+          </li>
+      </ng-template>
+    </ul>
+  </div>
+</div>
