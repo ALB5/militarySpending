@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 import * as d3                    from 'd3';
 import * as d3Scale               from 'd3';
@@ -28,7 +28,8 @@ export class EvolutionBubleComponent implements OnInit {
   color:any;
   pack:any;
 
-  constructor(private countryService: CountryService) { }
+
+  constructor(private countryService: CountryService) {}
 
   ngOnInit() {
 
@@ -82,9 +83,11 @@ export class EvolutionBubleComponent implements OnInit {
         .attr("transform", (d:any)=> {return "translate(" + d.x + "," + d.y +")"; });
 
     nodeBubble.append("circle")
+      .attr("class", "circleBubble")
       .attr("id", (d) => {return d.data.id; })
       .attr("r", (d) => {return d.r})
       .style("fill", (d) => {return this.color(d.data.id)})
+
 
     nodeBubble.append("clipPath")
       .attr("id", (d) => {return "clip-" + d.data.id ;})
@@ -109,6 +112,35 @@ export class EvolutionBubleComponent implements OnInit {
       .attr("fill", "white")
       .attr("font-size", (d) => d.r/4)
       .text((d) => "+" + format(d.value));
+
+      nodeBubble
+        .on("mouseover", mouseover)
+        .on("mouseout", mouseout)
+
+
+      function mouseover(){
+        let self;
+        self = this;
+        //on contrôle si this renvoie bien le bon objet (this:any)
+        console.log(self.children[2].children[0]);
+        d3.select(self.firstChild).transition()
+          .attr("r", (d:any) => d.r*1.2)
+        d3.select(self.children[2].children[0]).transition()
+          .attr("font-size", (d:any) => d.r/3)
+        d3.select(self.children[3]).transition()
+          .attr("font-size", (d:any)=> d.r/3)
+      }
+
+      function mouseout(){
+        let self;
+        self = this;
+        d3.select(self.firstChild).transition()
+          .attr("r", (d:any) => {return d.r})
+        d3.select(self.children[2].children[0]).transition()
+          .attr("font-size", (d:any) => d.r/4)
+        d3.select(self.children[3]).transition()
+          .attr("font-size", (d:any)=> d.r/4)
+      }
   }
 
   onResize(event){

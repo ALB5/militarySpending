@@ -72,7 +72,7 @@ export class Evolution3Component implements OnInit {
             }
 
         })
-      
+
         this.buildGraph();
       })
   }
@@ -210,6 +210,7 @@ export class Evolution3Component implements OnInit {
       .attr("class", "mouseZone")
       .on("mouseout", function(){
         focus.style("display", "none");
+
       })
       .on("mouseover", function(){
         focus.style("display", null);
