@@ -28,7 +28,6 @@ export class EvolutionBubleComponent implements OnInit {
   color:any;
   pack:any;
 
-
   constructor(private countryService: CountryService) {}
 
   ngOnInit() {
@@ -117,18 +116,19 @@ export class EvolutionBubleComponent implements OnInit {
         .on("mouseover", mouseover)
         .on("mouseout", mouseout)
 
-
       function mouseover(){
+
         let self;
         self = this;
         //on contrôle si this renvoie bien le bon objet (this:any)
-        console.log(self.children[2].children[0]);
         d3.select(self.firstChild).transition()
           .attr("r", (d:any) => d.r*1.2)
         d3.select(self.children[2].children[0]).transition()
           .attr("font-size", (d:any) => d.r/3)
         d3.select(self.children[3]).transition()
           .attr("font-size", (d:any)=> d.r/3)
+        //on fait passer l'élément sélectionné en premier pour qu'il apparaisse devant les autres bulles
+        self.parentNode.appendChild(self);
       }
 
       function mouseout(){

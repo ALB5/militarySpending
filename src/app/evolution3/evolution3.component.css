@@ -33,9 +33,10 @@ p {
     font-size: 1.25em;
   }
 
-  h2{
-    padding: 0.5em 0;
+  .enveloppe-evolution{
+    height: 50vh;
   }
+
 }
 
 @media screen and (max-width: 1400px){
