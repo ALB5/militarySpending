@@ -41,7 +41,7 @@ p {
 
 @media screen and (max-width: 1400px){
   .evolution{
-    height: auto;
+    height: 100vh;
   }
 
 }
