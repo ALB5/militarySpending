@@ -42,16 +42,31 @@ export class HomeComponent implements OnInit {
 
         });
       })
-      let scrollPos;
-      function opacityContent(){
-        scrollPos = $(this.this).scrollTop();
-        console.log(scrollPos);
-        if (scrollPos > 1500){
-          $('.fleche').css({
-            'opacity':0
-          });
-        }
-      }
+
+      $('.fleche').click(function(){
+        document.querySelector('.carte').scrollIntoView({
+          behavior: 'smooth'
+        })
+      })
+      //tentative de faire scroller vers le bas en cliquant sur la flèche
+      $(function() {
+        $('.fleche').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            console.log(target)
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+
+
+
   }
 
 }

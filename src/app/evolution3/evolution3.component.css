@@ -39,13 +39,6 @@ p {
 
 }
 
-@media screen and (max-width: 1400px){
-  .evolution{
-    height: 100vh;
-  }
-
-}
-
 @media screen and (max-width: 768px){
   .evolution{
     display: none;

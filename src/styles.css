@@ -71,6 +71,12 @@ app-root:empty + .loading {
     opacity: 0.7;
 }
 
+.info p{
+  font-size: 0.8em;
+  margin: 0;
+  padding:0;
+}
+
 /*D3*/
 .axis {
   font: 1em sans-serif;
@@ -162,6 +168,7 @@ app-root:empty + .loading {
 
 .bar {
   fill: #22303D;
+  transition: fill 0.5s ease;
 }
 
 .bar:hover {

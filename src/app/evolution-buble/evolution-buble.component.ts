@@ -120,7 +120,7 @@ export class EvolutionBubleComponent implements OnInit {
 
         let self;
         self = this;
-        //on contrôle si this renvoie bien le bon objet (this:any)
+        //on contrôle si "this" renvoie bien le bon objet (this:any)
         d3.select(self.firstChild).transition()
           .attr("r", (d:any) => d.r*1.2)
         d3.select(self.children[2].children[0]).transition()

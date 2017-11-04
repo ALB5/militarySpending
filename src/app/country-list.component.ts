@@ -112,7 +112,7 @@ export class CountryListComponent implements OnInit {
                             };
 
                             info.update = function(props){
-                              this._div.innerHTML = '<h4>Military spendings around the world</h4>' + (props ? '<b>' + props.name + '</b><br />' + (props.expenditure == "data unavailable"? props.expenditure : props.expenditure + ' millions dollars') : 'Hover over a country');
+                              this._div.innerHTML = '<h4>Military spendings around the world</h4>' + (props ? '<b>' + props.name + '</b><br />' + (props.expenditure == "data unavailable"? props.expenditure : props.expenditure + ' millions dollars') : 'Hover over a country') + '<br />' +' <p class="constantPriceMention">Figures are expressed in constant prices </p>' ;
                             };
 
                             info.addTo(map);
